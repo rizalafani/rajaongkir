@@ -8,7 +8,7 @@ abstract class Api {
 	protected $data;
 	protected $endPointAPI = 'http://rajaongkir.com/api/starter';
 	protected $overWriteOptions = [];
-	protected $apiKey = '8effcbab899a19e5534ed2772f27c2e8';
+	protected $apiKey = '';
 
 	public function __construct(){}
 
@@ -48,7 +48,7 @@ abstract class Api {
 		( empty($this->data) ) ? $this->GetData()->data : $this->data;
 		return count($this->data);
 	}
-	
+
 	protected function GetData(){
 		$curl = curl_init();
 

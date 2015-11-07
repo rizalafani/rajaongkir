@@ -4,6 +4,24 @@ API ini digunakan ( baru tersedia ) untuk type akun starter
 
 **Penggunaan**
 
+Download package dengan composer
+```
+composer require rizalafani/rajaongkir
+```
+atau
+```
+{
+	"require": {
+		"rizalafani/rajaongkir" : "dev"
+	}
+}
+```
+
+Modifikasi file Api.php di vendor/rizalafani/rajaongkir/src/App/Api.php baris ke 11
+```php
+protected $apiKey = 'isi_api_key_anda_disini';
+```
+
 Load package dengan autoload
 ```php
 include 'vendor/autoload.php';
