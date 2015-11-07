@@ -76,3 +76,6 @@ $data = RajaOngkir\RajaOngkir::Cost([
 	'courier' 		=> 'jne', // kode kurir pengantar ( jne / tiki / pos )
 ]);
 ```
+
+Kunjungi [rajaongkir](http://rajaongkir.com/)
+Documentasi akun [starter](http://rajaongkir.com/dokumentasi/starter)
