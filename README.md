@@ -74,8 +74,10 @@ $data = RajaOngkir\RajaOngkir::Cost([
 	'destination' 	=> 114, // id kota tujuan
 	'weight' 		=> 1700, // berat satuan gram
 	'courier' 		=> 'jne', // kode kurir pengantar ( jne / tiki / pos )
-]);
+])->get();
 ```
 
+
 Kunjungi [rajaongkir](http://rajaongkir.com/)
+
 Documentasi akun [starter](http://rajaongkir.com/dokumentasi/starter)
