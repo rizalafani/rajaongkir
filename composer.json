@@ -17,11 +17,5 @@
         "psr-4": {
             "RajaOngkir\\": "src"
         }
-    },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "git@github.com:rizalafani/rajaongkir.git"
-        }
-    ]
+    }
 }
