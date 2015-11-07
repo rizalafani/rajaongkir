@@ -2,7 +2,7 @@
 
 API ini digunakan ( baru tersedia ) untuk type akun starter
 
-Penggunaan
+**Penggunaan**
 
 Load package dengan autoload
 ```php
