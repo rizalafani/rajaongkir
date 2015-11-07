@@ -1,0 +1,21 @@
+{
+    "name": "rizalafani/rajaongkir",
+    "description": "Raja Ongkir API PHP",
+    "keywords": [
+        "rajaongkir", "application programming interface"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmad Rizal Afani",
+            "email": "ahmadrizalafani@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RajaOngkir\\": "src"
+        }
+    }
+}
