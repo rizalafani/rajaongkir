@@ -12,7 +12,7 @@ atau
 ```
 {
 	"require": {
-		"rizalafani/rajaongkir" : "dev"
+		"rizalafani/rajaongkir" : "dev-master"
 	}
 }
 ```
