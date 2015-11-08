@@ -4,6 +4,8 @@ namespace RajaOngkir\App;
 
 class Cost extends Api {
 	public function __construct($attributes){
+		parent::__construct();
+
 		$this->overWriteOptions = [
 			CURLOPT_CUSTOMREQUEST => "POST",
 			CURLOPT_POSTFIELDS => http_build_query($attributes),
@@ -16,5 +18,5 @@ class Cost extends Api {
 		$this->GetData();
 	}
 
-	protected $method = "cost";	
+	protected $method = "cost";
 }
